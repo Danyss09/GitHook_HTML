@@ -1,0 +1,11 @@
+{
+  "name": "githook_html",
+  "version": "1.0.0",
+  "description": "**HtmlProject** is a simple web project that serves a \"Hello World\" message from an HTML file. This project is dockerized to make it easy to deploy and run in any environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests configured'"  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
