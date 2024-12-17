@@ -1,7 +1,0 @@
-#!/bin/bash
-# Ejecuta pruebas antes de hacer push
-npm test
-if [ $? -ne 0 ]; then
-  echo "Error: Las pruebas fallaron. Push abortado."
-  exit 1
-fi

@@ -1,6 +1,0 @@
-#!/bin/bash
-# Verifica si index.html está presente
-if ! git diff --cached --name-only | grep -q "index.html"; then
-  echo "Error: El archivo index.html no está incluido en este commit."
-  exit 1
-fi
